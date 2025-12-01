@@ -8,7 +8,7 @@ import joblib
 import google.generativeai as genai
 import pandas as pd
 
-GEMINI_KEY = ""
+GEMINI_KEY = "AIzaSyDUEJe0asR2IMx2KytiRw-BehJuwo0Utq8"
 genai.configure(api_key=GEMINI_KEY)
 
 st.set_page_config(
